@@ -21,7 +21,7 @@
 [Compartilhe a tela e faça uns 2 a 3 testes]
 - "O que é CDI?"
 - "Onde estou gastando mais?"
-- "Me explique o que é tesouro Selic
+- "Me explique o que é tesouro Selic"
 
 ### 4. Diferencial e Impacto (30 seg)
 > Por que essa solução é inovadora e qual é o impacto dela na sociedade?
