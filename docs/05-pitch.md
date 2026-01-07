@@ -13,7 +13,7 @@
 ### 2. A Solução (1 min)
 > Como seu agente resolve esse problema?
 
-"O Edu é um educador financeiro que ensina o usuário de forma personalizada. Ele usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos - só educa. É como ter um professor particular de finanças disponível a todo momento."
+"O Finn é um educador financeiro que ensina o usuário de forma personalizada. Ele usa seus próprios dados para dar exemplos práticos. Não recomenda investimentos - só educa. É como ter um professor particular de finanças disponível a todo momento."
 
 ### 3. Demonstração (1 min)
 > Mostre o agente funcionando (pode ser gravação de tela)
