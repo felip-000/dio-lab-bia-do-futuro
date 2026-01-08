@@ -1,110 +1,32 @@
-# 🤖 Agente Financeiro Inteligente com IA Generativa
+# 🤖 Finn — Educador Financeiro Inteligente
 
-## Contexto
+Finn é um **agente de IA generativa com foco em educação financeira**, desenvolvido como solução final do laboratório **“BIA do Futuro”** da Digital Innovation One (DIO).
 
-Os assistentes virtuais no setor financeiro estão evoluindo de simples chatbots reativos para **agentes inteligentes e proativos**. Neste desafio, você vai idealizar e prototipar um agente financeiro que utiliza IA Generativa para:
-
-- **Antecipar necessidades** ao invés de apenas responder perguntas
-- **Personalizar** sugestões com base no contexto de cada cliente
-- **Cocriar soluções** financeiras de forma consultiva
-- **Garantir segurança** e confiabilidade nas respostas (anti-alucinação)
-
-> [!TIP]
-> Na pasta [`examples/`](./examples/) você encontra referências de implementação para cada etapa deste desafio.
+O projeto entrega uma solução funcional que une **documentação, dados, prompts e código**, indo além do template inicial do fork e consolidando o desenvolvimento completo do agente.
 
 ---
 
-## O Que Você Deve Entregar
+## 🎯 Objetivo do Projeto
 
-### 1. Documentação do Agente
+Criar um agente inteligente capaz de:
 
-Defina **o que** seu agente faz e **como** ele funciona:
-
-- **Caso de Uso:** Qual problema financeiro ele resolve? (ex: consultoria de investimentos, planejamento de metas, alertas de gastos)
-- **Persona e Tom de Voz:** Como o agente se comporta e se comunica?
-- **Arquitetura:** Fluxo de dados e integração com a base de conhecimento
-- **Segurança:** Como evitar alucinações e garantir respostas confiáveis?
-
-📄 **Template:** [`docs/01-documentacao-agente.md`](./docs/01-documentacao-agente.md)
+- Interpretar dados financeiros e perfil do usuário;
+- Atuar como educador financeiro, não apenas como respondedor de perguntas;
+- Gerar orientações claras, contextualizadas e didáticas;
+- Demonstrar, na prática, o uso de **IA Generativa aplicada a um domínio real**.
 
 ---
 
-### 2. Base de Conhecimento
+## 🧠 O Agente: Finn
 
-Utilize os **dados mockados** disponíveis na pasta [`data/`](./data/) para alimentar seu agente:
+O **Finn** foi concebido como um educador financeiro digital, com comportamento orientado a:
 
-| Arquivo | Formato | Descrição |
-|---------|---------|-----------|
-| `transacoes.csv` | CSV | Histórico de transações do cliente |
-| `historico_atendimento.csv` | CSV | Histórico de atendimentos anteriores |
-| `perfil_investidor.json` | JSON | Perfil e preferências do cliente |
-| `produtos_financeiros.json` | JSON | Produtos e serviços disponíveis |
+- Análise de contexto financeiro;
+- Comunicação simples e acessível;
+- Geração de insights acionáveis;
+- Apoio à tomada de decisão consciente.
 
-Você pode adaptar ou expandir esses dados conforme seu caso de uso.
-
-📄 **Template:** [`docs/02-base-conhecimento.md`](./docs/02-base-conhecimento.md)
-
----
-
-### 3. Prompts do Agente
-
-Documente os prompts que definem o comportamento do seu agente:
-
-- **System Prompt:** Instruções gerais de comportamento e restrições
-- **Exemplos de Interação:** Cenários de uso com entrada e saída esperada
-- **Tratamento de Edge Cases:** Como o agente lida com situações limite
-
-📄 **Template:** [`docs/03-prompts.md`](./docs/03-prompts.md)
-
----
-
-### 4. Aplicação Funcional
-
-Desenvolva um **protótipo funcional** do seu agente:
-
-- Chatbot interativo (sugestão: Streamlit, Gradio ou similar)
-- Integração com LLM (via API ou modelo local)
-- Conexão com a base de conhecimento
-
-📁 **Pasta:** [`src/`](./src/)
-
----
-
-### 5. Avaliação e Métricas
-
-Descreva como você avalia a qualidade do seu agente:
-
-**Métricas Sugeridas:**
-- Precisão/assertividade das respostas
-- Taxa de respostas seguras (sem alucinações)
-- Coerência com o perfil do cliente
-
-📄 **Template:** [`docs/04-metricas.md`](./docs/04-metricas.md)
-
----
-
-### 6. Pitch
-
-Grave um **pitch de 3 minutos** (estilo elevador) apresentando:
-
-- Qual problema seu agente resolve?
-- Como ele funciona na prática?
-- Por que essa solução é inovadora?
-
-📄 **Template:** [`docs/05-pitch.md`](./docs/05-pitch.md)
-
----
-
-## Ferramentas Sugeridas
-
-Todas as ferramentas abaixo possuem versões gratuitas:
-
-| Categoria | Ferramentas |
-|-----------|-------------|
-| **LLMs** | [ChatGPT](https://chat.openai.com/), [Copilot](https://copilot.microsoft.com/), [Gemini](https://gemini.google.com/), [Claude](https://claude.ai/), [Ollama](https://ollama.ai/) |
-| **Desenvolvimento** | [Streamlit](https://streamlit.io/), [Gradio](https://www.gradio.app/), [Google Colab](https://colab.research.google.com/) |
-| **Orquestração** | [LangChain](https://www.langchain.com/), [LangFlow](https://www.langflow.org/), [CrewAI](https://www.crewai.com/) |
-| **Diagramas** | [Mermaid](https://mermaid.js.org/), [Draw.io](https://app.diagrams.net/), [Excalidraw](https://excalidraw.com/) |
+Ele utiliza dados mockados e regras de negócio para simular cenários reais de uso.
 
 ---
 
@@ -138,12 +60,60 @@ Todas as ferramentas abaixo possuem versões gratuitas:
     └── README.md
 ```
 
+Essa organização separa claramente **documentação, dados e implementação**, facilitando manutenção e evolução do projeto.
+
 ---
 
-## Dicas Finais
+## 🔄 Fluxo de Funcionamento do Finn (Mermaid)
 
-1. **Comece pelo prompt:** Um bom system prompt é a base de um agente eficaz
-2. **Use os dados mockados:** Eles garantem consistência e evitam problemas com dados sensíveis
-3. **Foque na segurança:** No setor financeiro, evitar alucinações é crítico
-4. **Teste cenários reais:** Simule perguntas que um cliente faria de verdade
-5. **Seja direto no pitch:** 3 minutos passam rápido, vá ao ponto
+O diagrama abaixo representa o fluxo lógico do agente, desde a entrada do usuário até a resposta final:
+
+```mermaid
+flowchart TD
+    A[Usuário] --> B[Entrada / Pergunta]
+    B --> C[Análise de Contexto Financeiro]
+    C --> D[Consulta aos Dados Mockados]
+    D --> E[Regras de Negócio Financeiras]
+    E --> F[IA Generativa]
+    F --> G[Geração de Resposta Educacional]
+    G --> H[Resposta ao Usuário]
+```
+---
+
+## 🛠️ Tecnologias e Conceitos Utilizados
+- IA Generativa (LLMs)
+- Engenharia de Prompt
+- Simulação de dados financeiros
+- Organização de projeto orientada a produto
+- Prototipação de agentes inteligentes
+
+---
+## 🚀 Como Executar o Projeto
+
+### 1. Clone este repositório:
+```
+git clone https://github.com/felip-000/dio-lab-bia-do-futuro.git
+```
+
+### 2. Acesse a pasta do projeto:
+```
+cd dio-lab-bia-do-futuro
+```
+
+### 3. Configure as dependências e variáveis necessárias:
+```
+pip install streamlit pandas requests
+```
+
+### 4. Execute o código presente em ```src/```:
+```
+py -m streamlit run .\src\app.py
+```
+
+---
+📚 Contexto Educacional
+
+Este projeto foi desenvolvido como parte de um laboratório prático da DIO, com foco em:
+- Aplicação real de IA Generativa;
+- Organização de um repositório profissional;
+- Entrega de uma solução completa (documentação + código).
