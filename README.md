@@ -51,12 +51,12 @@ Ele utiliza dados mockados e regras de negócio para simular cenários reais de 
 │   └── 05-pitch.md                   # Roteiro do pitch
 │
 ├── 📁 src/                           # Código da aplicação
-│   └── app.py                        # (exemplo de estrutura)
+│   └── app.py                        # O próprio aplicativo do Finn
 │
-├── 📁 assets/                        # Imagens e diagramas
+├── 📁 assets/                        # Imagens e diagramas, vulgo, vazia
 │   └── ...
 │
-└── 📁 examples/                      # Referências e exemplos
+└── 📁 examples/                      # Referências e exemplos, vazia
     └── README.md
 ```
 
